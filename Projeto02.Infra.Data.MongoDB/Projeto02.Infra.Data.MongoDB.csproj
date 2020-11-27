@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Caches\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Projeto02.Domain\Projeto02.Domain.csproj" />
   </ItemGroup>
 

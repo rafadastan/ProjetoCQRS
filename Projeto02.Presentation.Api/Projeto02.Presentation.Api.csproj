@@ -8,5 +8,18 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Projeto02.Application\Projeto02.Application.csproj" />
+    <ProjectReference Include="..\Projeto02.Domain\Projeto02.Domain.csproj" />
+    <ProjectReference Include="..\Projeto02.Infra.Data.MongoDB\Projeto02.Infra.Data.MongoDB.csproj" />
+    <ProjectReference Include="..\Projeto02.Infra.Data.SqlServer\Projeto02.Infra.Data.SqlServer.csproj" />
+  </ItemGroup>
+
 
 </Project>

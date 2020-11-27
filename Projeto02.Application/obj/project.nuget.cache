@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EkeKcuVbGdsOoJIc8snM7yrkz/ocViJc5xOm5Ejo6m70cj6i1TuYqF+awVGqWc932ay9G3qI8+q4mHW3MgbZuw==",
+  "dgSpecHash": "tN/aAwcJEm6XCkManQou2wm79DQFdkyOeZD28gRZFxwXbE5z2hVI9RVNTZluqYCeyAt6UvO+CRZkGZ/EVyh3/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Raphael\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

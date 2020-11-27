@@ -4,14 +4,79 @@
     "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj": {
+    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj",
-        "projectName": "Projeto02.Presentation.Api",
-        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj",
+        "projectName": "Projeto02.Application",
+        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj",
         "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\obj\\",
+        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj",
+        "projectName": "Projeto02.Domain",
+        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj",
+        "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +105,238 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
+        "projectName": "Projeto02.Infra.Data.MongoDB",
+        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
+        "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
+        "projectName": "Projeto02.Infra.Data.SqlServer",
+        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj",
+        "projectName": "Projeto02.Presentation.Api",
+        "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\Projeto02.Presentation.Api.csproj",
+        "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Presentation.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj"
+              },
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+              },
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj"
+              },
+              "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

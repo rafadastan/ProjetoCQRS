@@ -1,4 +1,6 @@
 ﻿using MongoDB.Driver;
+using Projeto02.Domain.DTOs;
+using Projeto02.Domain.Entities;
 using Projeto02.Infra.Data.MongoDB.Settings;
 using System;
 using System.Collections.Generic;
@@ -33,5 +35,27 @@ namespace Projeto02.Infra.Data.MongoDB.Contexts
 
             #endregion
         }
+
+        #region Mapeamento das Collections
+
+        public IMongoCollection<UsuarioDTO> Usuarios
+        {
+            get
+            {
+                return mongoDatabase.GetCollection<UsuarioDTO>("Usuarios");
+            }
+        }
+
+        public IMongoCollection<TarefaDTO> Tarefas
+        {
+            get
+            {
+                return mongoDatabase.GetCollection<TarefaDTO>("Tarefas");
+            }
+        }
+
+        #endregion
     }
 }
+
+

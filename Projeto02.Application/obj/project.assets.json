@@ -1,11 +1,56 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "Projeto02.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Projeto02.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Projeto02.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MediatR/8.0.1": {
+      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "type": "package",
+      "path": "mediatr/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.8.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "Projeto02.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Projeto02.Domain/Projeto02.Domain.csproj",
+      "msbuildProject": "../Projeto02.Domain/Projeto02.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MediatR >= 8.0.1",
+      "Projeto02.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Raphael\\.nuget\\packages\\": {},
@@ -36,7 +81,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+              "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -47,6 +96,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
