@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
 using Projeto02.Application.Notifications;
 using Projeto02.Domain.DTOs;
 using Projeto02.Domain.Interfaces.Cache;
@@ -12,36 +13,28 @@ namespace Projeto02.Application.Handlers
 {
     public class UsuarioHandler : INotificationHandler<UsuarioNotification>
     {
+        //atributo
         private readonly IUsuarioCache usuarioCache;
+        private readonly IMapper mapper;
 
-        public UsuarioHandler(IUsuarioCache usuarioCache)
+        //construtor para injeção de dependência
+        public UsuarioHandler(IUsuarioCache usuarioCache, IMapper mapper)
         {
             this.usuarioCache = usuarioCache;
+            this.mapper = mapper;
         }
 
         public Task Handle(UsuarioNotification notification, CancellationToken cancellationToken)
         {
             return Task.Run(() =>
             {
-                var usuarioDTO = new UsuarioDTO
-                {
-                    Id = notification.Usuario.Id,
-                    Nome = notification.Usuario.Nome,
-                    DataCriacao = notification.Usuario.DataCriacao
-                };
+                //montar o objeto DTO que será enviado para o MongoDB
+                var usuarioDTO = mapper.Map<UsuarioDTO>(notification.Usuario);
 
                 switch (notification.Action)
                 {
                     case ActionNotification.Create:
                         usuarioCache.Create(usuarioDTO);
-                        break;
-                    case ActionNotification.Update:
-                        usuarioCache.Update(usuarioDTO);
-                        break;
-                    case ActionNotification.Delete:
-                        usuarioCache.Delete(usuarioDTO);
-                        break;
-                    default:
                         break;
                 }
             });

@@ -5883,11 +5883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
+      "projectUniqueName": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
       "projectName": "Projeto02.Infra.Data.SqlServer",
-      "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
+      "projectPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
       "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\obj\\",
+      "outputPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5905,9 +5905,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
-              "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+            "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+              "projectPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
             }
           }
         }
@@ -5920,6 +5921,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5961,7 +5963,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

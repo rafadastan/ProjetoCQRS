@@ -41,6 +41,8 @@ namespace Projeto02.Presentation.Api
 
             //Setup para o MediatR
             MediatRConfiguration.AddMediatRSetup(services);
+
+            AutoMapperConfiguration.AddAutoMapperSetup(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

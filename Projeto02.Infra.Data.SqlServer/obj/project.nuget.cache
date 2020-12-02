@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ejmF6GkQLwXgxGpAbDCql8PIOevbG10FKUtRWqOvYop6Pa19oO3H9uxR6v/1Mv7QfI4qg/TlZv34Kov0wL6Pww==",
+  "dgSpecHash": "58re5+MiRbenSSHAOXtv/NGhqAcNpB8xVrJYt/wyeTNVwvnyy0v+ymOIycLWFTs8KhQonnbGcR4hlydrdCJ8tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
+  "projectFilePath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.SqlServer\\Projeto02.Infra.Data.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Projeto02.Infra.Data.MongoDB.Caches
 {
-    class UsuarioCache : IUsuarioCache
+    public class UsuarioCache : IUsuarioCache
     {
         //atributo..
         private readonly MongoDbContext mongoDbContext;

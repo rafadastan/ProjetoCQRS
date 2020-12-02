@@ -1,12 +1,24 @@
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.deps.json
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.dll
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.pdb
+C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.dll
+C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.pdb
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csprojAssemblyReference.cache
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.AssemblyInfoInputs.cache
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.AssemblyInfo.cs
+C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CoreCompileInputs.cache
+C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CopyComplete
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.dll
 C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.pdb
-C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.dll
-C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.pdb
-C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CopyComplete
-C:\Users\Raphael\Documents\Coti Informática - Escola de Nerds\Avançado - C# Development Curso - Raphael - 2020\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CoreCompileInputs.cache
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.deps.json
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.dll
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Application.pdb
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.dll
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\bin\Debug\netcoreapp3.1\Projeto02.Domain.pdb
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csprojAssemblyReference.cache
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.AssemblyInfoInputs.cache
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.AssemblyInfo.cs
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CoreCompileInputs.cache
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.csproj.CopyComplete
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.dll
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Application\obj\Debug\netcoreapp3.1\Projeto02.Application.pdb

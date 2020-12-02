@@ -5,6 +5,7 @@ using Projeto02.Domain.Interfaces.Cache;
 using Projeto02.Domain.Interfaces.Repositories;
 using Projeto02.Domain.Interfaces.Services;
 using Projeto02.Domain.Services;
+using Projeto02.Infra.Data.MongoDB.Caches;
 using Projeto02.Infra.Data.SqlServer.Repositories;
 using System;
 using System.Collections.Generic;

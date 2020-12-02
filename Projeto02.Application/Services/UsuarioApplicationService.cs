@@ -5,6 +5,7 @@ using Projeto02.Domain.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Projeto02.Application.Services
 {
@@ -17,9 +18,9 @@ namespace Projeto02.Application.Services
             this.mediator = mediator;
         }
 
-        public void Create(UsuarioCreateCommand command)
+        public async Task Create(UsuarioCreateCommand command)
         {
-            mediator.Send(command);
+            await mediator.Send(command);
         }
     }
 }

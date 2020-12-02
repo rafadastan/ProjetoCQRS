@@ -4811,11 +4811,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
+      "projectUniqueName": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
       "projectName": "Projeto02.Infra.Data.MongoDB",
-      "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
+      "projectPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
       "packagesPath": "C:\\Users\\Raphael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\obj\\",
+      "outputPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4833,9 +4833,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
-              "projectPath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
+            "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj": {
+              "projectPath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Domain\\Projeto02.Domain.csproj"
             }
           }
         }
@@ -4848,6 +4849,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MongoDB.Driver": {
             "target": "Package",
@@ -4869,7 +4871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

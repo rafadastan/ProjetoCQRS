@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BhsVEhj78fTjBPTK/OiswcPN6Kr/Z7Uwoyw9D9Zvt0MC04je5lzwSyPztNGrZZQEtEH4JJR6idznadlGwwwOfA==",
+  "dgSpecHash": "GtCFBjUVKp7HJfCl8lC9tKi89eI4e/md+oAuCYbKIDxhzL+CZNH2VWJZAsOiFjRjVQ8JBiTrTVfzr192+ccG5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
+  "projectFilePath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Infra.Data.MongoDB\\Projeto02.Infra.Data.MongoDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Raphael\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

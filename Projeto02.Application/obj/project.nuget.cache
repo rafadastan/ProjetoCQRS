@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "tN/aAwcJEm6XCkManQou2wm79DQFdkyOeZD28gRZFxwXbE5z2hVI9RVNTZluqYCeyAt6UvO+CRZkGZ/EVyh3/Q==",
+  "dgSpecHash": "z6BsWtw5xWDwmLDlfBbmS6BkS21EWDBmMYjXZCjuC3vYBIjEzT6uAr2+RxXR1iTmp6kj5dFCxDU+TP7d6Zm3+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Raphael\\Documents\\Coti Informática - Escola de Nerds\\Avançado - C# Development Curso - Raphael - 2020\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj",
+  "projectFilePath": "C:\\Projetos Coti\\Projeto02\\Projeto02\\Projeto02.Application\\Projeto02.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Raphael\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+    "C:\\Users\\Raphael\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

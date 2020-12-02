@@ -3,11 +3,12 @@ using Projeto02.Domain.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Projeto02.Application.Interfaces
 {
     public interface IUsuarioApplicationService
     {
-        void Create(UsuarioCreateCommand command);
+        Task Create(UsuarioCreateCommand command);
     }
 }
