@@ -43,6 +43,8 @@ namespace Projeto02.Presentation.Api
             MediatRConfiguration.AddMediatRSetup(services);
 
             AutoMapperConfiguration.AddAutoMapperSetup(services);
+
+            CorsConfiguration.AddCors(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +56,10 @@ namespace Projeto02.Presentation.Api
             }
 
             app.UseRouting();
+
+            //Setup para configuração do CORS
+            CorsConfiguration.UseCors(app);
+
 
             app.UseEndpoints(endpoints =>
             {
