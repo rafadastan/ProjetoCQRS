@@ -33,6 +33,8 @@ namespace Projeto02.Presentation.Api
             //Setup para configuração do EntityFramework
             EntityFrameworkConfiguration.AddEntityFramework(services, Configuration);
 
+            JwtConfiguration.ConfigureServices(services, Configuration);
+
             //Setup para o MongoDB
             MongoDBConfiguration.AddMongoDBSetup(services, Configuration);
 
@@ -60,6 +62,7 @@ namespace Projeto02.Presentation.Api
             //Setup para configuração do CORS
             CorsConfiguration.UseCors(app);
 
+            JwtConfiguration.Configure(app);
 
             app.UseEndpoints(endpoints =>
             {

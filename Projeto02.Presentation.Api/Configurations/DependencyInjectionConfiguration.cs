@@ -21,6 +21,7 @@ namespace Projeto02.Presentation.Api.Configurations
             #region Application
 
             services.AddTransient<IUsuarioApplicationService, UsuarioApplicationService>();
+            services.AddTransient<ILoginApplicationService, LoginApplicationService>();
 
             #endregion
 
@@ -41,7 +42,6 @@ namespace Projeto02.Presentation.Api.Configurations
             services.AddTransient<ITarefaCache, TarefaCache>();
 
             #endregion
-
         }
     }
 }

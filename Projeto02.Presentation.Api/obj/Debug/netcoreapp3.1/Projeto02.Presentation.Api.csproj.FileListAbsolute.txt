@@ -165,3 +165,4 @@ C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Presentation.Api\obj\Debug\netcor
 C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Presentation.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Presentation.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Presentation.Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Projeto02.Presentation.Api.styles.css
+C:\Projetos Coti\Projeto02\Projeto02\Projeto02.Presentation.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
